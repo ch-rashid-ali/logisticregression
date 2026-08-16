@@ -1,6 +1,2 @@
-import streamlit as st
-import pickle
-
-# Sahi Path aur "rb" Mode
-with open("logistic_regression_model.pkl", "rb") as f:
-    model = pickle.load(f)
+venv/
+__pycache__/
